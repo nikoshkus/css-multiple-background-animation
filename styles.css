@@ -1,0 +1,25 @@
+@keyframes back {
+  0% {
+    background-image: url('~./bg-1.svg');
+  }
+  50% {
+    background-image: url('~./bg-1.svg');
+  }
+  51% {
+    background-image: url('~./bg-2.svg');
+  }
+  100% {
+    background-image: url('~./bg-2.svg');
+  }
+}
+
+body {
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: back;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+}
